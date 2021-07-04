@@ -64,6 +64,8 @@
      font-size: 30px;
     }
     #navbar li:hover{
+        padding: 15px;
+        border: 1px solid red;
         background-color:red;
     }
     .text{
