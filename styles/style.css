@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#index .definition{
+    display: none;
+}
+#index:hover .definition{
+    display:block;
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 15px;
+    margin-left:10px;
+    margin-right:10px;
+    font-size:15px;
+    margin-bottom: 15px;
+    text-transform:initial;
+    padding: 16px;
+    text-align: center;
+}
+#index:hover{
+    display: block;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: lawngreen;
+    float: none;
+}
+@media screen and (max-width:799px){
+    #index{
+        text-align: center;
+        background-color:red;
+        border: 1px solid white;
+    }
+    #ein{
+        text-align:center;
+        background-color:greenyellow;
+    }
+    #zwei{
+        text-align:center;
+        background-color:yellow;
+    }
+    #drei{
+        text-align:center;
+        background-color:brown;
+    }
+    #navbar{
+        display: block;
+        list-style:none;
+        text-align:center;
+        border: 1px solid aqua;
+    }
+    #navbar li{
+        background-color: aqua;
+        border: 1px solid aqua;
+    }
+    #navbar li a{
+     text-decoration: none;
+     color:black;
+     font-size: 30px;
+    }
+    #navbar li:hover{
+        background-color:red;
+    }
+    .text{
+        margin-top: 30px;
+        padding:15px;
+        border: 1px solid cyan;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: cyan;
+    }
+    footer li{
+        list-style:none;
+        text-align: center;
+    }
+    #title{
+        text-align: center;
+    }
+    body{
+        text-align: center;
+    }
+}
+@media screen and (min-width:800px){
+    #index{
+        text-align: left;
+        margin-left:15px;
+        margin-right:15px;
+        font-size: 25px;
+        background-color:white;
+    }
+    #ein{
+        margin-left:15px;
+        text-align:left;
+        color:blue;
+    }
+    #zwei{
+        margin-left:15px;
+        text-align:left;
+        color:orange;
+    }
+    #drei{
+        margin-left:15px;
+        text-align:left;
+        color:skyblue;
+    }
+    #navbar{
+        display: flex;
+        list-style:none;
+        text-align:left;
+        border: 1px solid white;
+        background-color:cyan;
+        box-sizing: border-box;
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 50px;
+        
+    }
+    #navbar li{
+        margin: 15px;;
+    }
+    #navbar li a{
+     text-decoration: none;
+     color:black;
+     font-size: 30px;
+    }
+    #navbar li a:hover{
+        margin: 15px;
+        padding: 15px;
+        background:red;
+    }
+    .main{
+        display:flex;
+    }
+    .text{
+        padding:15px;
+        margin-top: 45px;
+        margin-left:15px;
+        border: 1px solid white;
+        background-color: cyan;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        margin-right: 15px;
+        font-size: 150%;
+    }
+    footer li{
+        margin-left:15px;
+        text-align:left;
+        list-style:none;
+    }
+    #title{
+        font-size: 30px;
+        text-align: left;
+        margin-left: 15px;
+        margin-bottom:45px;
+        position:absolute;
+    }
+    body{
+        text-align: left;
+    }
+}
