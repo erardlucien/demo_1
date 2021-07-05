@@ -3,17 +3,6 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-#index:hover{
-    display: block;
-    padding: 15px;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    font-size: 15px;
-    text-transform: uppercase;
-    text-align: center;
-    background-color: lawngreen;
-    float: none;
-}
 @media screen and (max-width:799px){
     #index{
         text-align: center;
