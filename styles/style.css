@@ -82,21 +82,19 @@ body{
 @media screen and (min-width:800px){
     #index{
         background-color: red;
-        text-align: left;
     }
     #ein{
-        text-align:left;
         background-color:green;
     }
     #zwei{
-        text-align:left;
         background-color: blue;
     }
     #drei{
-        text-align:left;
         background-color:skyblue;
     }
     #index, #ein, #zwei, #drei{
+        text-align:left;
+        padding-left: 15px;
         font-size: 65px;
     }
     #navbar{
