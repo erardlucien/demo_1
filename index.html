@@ -23,11 +23,13 @@
                      <li><a href="drei.html">Der dritte</a></li>
                      </ul>
                 </li>
-                <li class="no-containt"><a href="#">Über uns</a></li>
+                <li class="no-containt"><a href="#contact">Über uns</a></li>
             </ul>            
         </nav>
+        <!-- Niemals "display:flex" in einem Block mit "headline(Bsp: h1, h2)"
+        einsetzen! -->
+        <h2 class="title">Lorem ipsum</h2>
             <div class="main">
-                <h2 id="title">Lorem ipsum</h2>
                 <p class="text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis scelerisque
                     mauris. Curabitur aliquam ligula in erat placerat finibus. Mauris leo neque,
@@ -42,7 +44,7 @@
                     varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                 </p>
             </div>
-        <footer>
+        <footer id="contact">
             <ul>
             <li>Kontakt</li>
             <li>Telefonnummer</li>

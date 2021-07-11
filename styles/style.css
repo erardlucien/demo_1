@@ -3,47 +3,52 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background: lightyellow;
+}
 @media screen and (max-width:799px){
     #index{
         text-align: center;
-        background-color:red;
-        border: 1px solid white;
+        background-color: red;
     }
     #ein{
         text-align:center;
-        background-color:greenyellow;
+        background-color: green;
     }
     #zwei{
         text-align:center;
-        background-color:yellow;
+        background-color: blue;
     }
     #drei{
         text-align:center;
-        background-color:brown;
+        background-color: skyblue;
     }
     #navbar{
         display: block;
         list-style:none;
         text-align:center;
-        border: 1px solid aqua;
+        background: cyan;
     }
     #navbar li a{
      text-decoration: none;
      color:black;
      font-size: 30px;
     }
-    #navbar{
-        background: cyan;
+    #navbar .service:hover{
+        background: white;
     }
-    #navbar .no-containt:hover, .service:hover{
-        background: red;
+    #navbar .service .service-link:hover,
+    #navbar .no-containt a:hover{
+        padding: 0;
+        display: block;
+        background-color: white;
     }
     #navbar .service .service-containt{
         display:none;
     }
     #navbar .service:hover .service-containt{
         display: block;
-        background-color: cyan;
+        background-color: lightgray;
         text-decoration: none;
         font-size: 30px;
         color: black;
@@ -51,8 +56,7 @@
     #navbar .service .service-containt li:hover{
         text-decoration: none;
         font-size: 30px;
-        padding: 15px;
-        background-color: red;
+        background-color: gray;
     }
     .text{
         margin-top: 30px;
@@ -68,7 +72,7 @@
         list-style:none;
         text-align: center;
     }
-    #title{
+    .main .title{
         text-align: center;
     }
     body{
@@ -76,48 +80,31 @@
     }
 }
 @media screen and (min-width:800px){
-    body{ 
-        background:bisque;
-    }
     #index{
-        background-color: bisque;
+        background-color: red;
         text-align: left;
-        padding-right: 50px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        margin-left:15px;
-        margin-right:15px;
-        font-size: 45px;
     }
     #ein{
-        margin-left:15px;
         text-align:left;
-        color:blue;
+        background-color:green;
     }
     #zwei{
-        margin-left:15px;
         text-align:left;
-        color:orange;
+        background-color: blue;
     }
     #drei{
-        margin-left:15px;
         text-align:left;
-        color:skyblue;
+        background-color:skyblue;
+    }
+    #index, #ein, #zwei, #drei{
+        font-size: 65px;
     }
     #navbar{
         display: flex;
         list-style:none;
         text-align:left;
-        border: 1px solid white;
         background-color:cyan;
-        box-sizing: border-box;
-        margin-left: 15px;
-        margin-right: 15px;
-        border-radius: 50px;
         font-size: 60px;
-    }
-    #navbar:hover {
-        margin-bottom: 300px;
     }
     #navbar li a{
      text-decoration: none;
@@ -131,7 +118,7 @@
     #navbar .service:hover .service-containt{   
         display: block;
         list-style: none;
-        background: cyan;
+        background: lightgray;
         font-size: 30px;
         position: absolute;
     }
@@ -143,24 +130,24 @@
         color:black;
         text-decoration: none;
     }
-    #navbar .no-containt:hover{
+    #navbar .no-containt:first-child:hover{
         margin-left: 25px;
     }
     #navbar li:hover{
-        background-color: red;
+        background-color: white;
         padding:0;
     }
     #navbar .service .service-containt li:hover
     {
-        background-color: red;   
+        background-color: gray;   
     }
     .main{
-        display:flex;
+        display: flex;
     }
-    .text{
+    .main .text{
+        display: block;
+        margin-left: 15px;
         padding:15px;
-        margin-top: 45px;
-        margin-left:15px;
         border: 1px solid white;
         background-color: cyan;
         border-radius: 15px;
@@ -174,11 +161,7 @@
         list-style:none;
         font-size: 15px;
     }
-    #title{
-        font-size: 30px;
-        text-align: left;
+    .title{
         margin-left: 15px;
-        margin-bottom:45px;
-        position:absolute;
     }
 }
