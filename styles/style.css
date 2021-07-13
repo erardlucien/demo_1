@@ -6,6 +6,20 @@
 body{
     background: wheat;
 }
+.send-button{
+    text-align: center;
+}
+.send-button button{
+    border: none;
+    background: red;
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.send-button button:hover{
+    background: orange;
+}
 @media screen and (max-width:799px){
     #index{
         text-align: center;
@@ -95,20 +109,6 @@ body{
     }
     .double-input div input:invalid{
         border-color: red;
-    }
-    .send-button{
-        text-align: center;
-    }
-    .send-button button{
-        border: none;
-        background: red;
-        color: white;
-        font-size: 30px;
-        margin-top: 15px;
-        padding: 15px;
-    }
-    .send-button button:hover{
-        background: orange;
     }
 }
 @media screen and (min-width:800px){
@@ -221,19 +221,5 @@ body{
     .double-input div input:invalid{
         border-color: red;
         background: lightcoral;
-    }
-    .send-button{
-        text-align: center;
-    }
-    .send-button button{
-        border: none;
-        background: red;
-        color: white;
-        font-size: 30px;
-        margin-top: 15px;
-        padding: 15px;
-    }
-    .send-button button:hover{
-        background: orange;
     }
 }
