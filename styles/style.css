@@ -6,10 +6,10 @@
 body{
     background: wheat;
 }
-.send-button{
+body .send-button{
     text-align: center;
 }
-.send-button button{
+body .send-button button{
     border: none;
     background: red;
     color: white;
@@ -17,7 +17,7 @@ body{
     margin-top: 15px;
     padding: 15px;
 }
-.send-button button:hover{
+body .send-button button:hover{
     background: orange;
 }
 @media screen and (max-width:799px){
