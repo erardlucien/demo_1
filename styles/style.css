@@ -75,6 +75,7 @@ body{
     .text{
         margin-top: 30px;
         padding:15px;
+        text-align: center;
         border: 1px solid cyan;
         margin-bottom: 30px;
         border-radius: 15px;
@@ -97,15 +98,17 @@ body{
     }
     .double-input div{
         text-align: center;
-        font-size: 30px;
     }
     .double-input div input{
         border: 1px solid gray;
-        font-size: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 15%;
+        margin-top: 5px;
         border-radius: 15px;
     }
     .double-input div input:valid{
-        border-color: green;
+        border-color: green;    
     }
     .double-input div input:invalid{
         border-color: red;
