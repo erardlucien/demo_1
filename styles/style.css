@@ -98,12 +98,14 @@ body{
     }
     .double-input div{
         text-align: center;
+        font-size: 20px;
     }
     .double-input div input{
         border: 1px solid gray;
         padding-left: 15px;
         padding-right: 15px;
         width: 15%;
+        font-size: 20px;
         margin-top: 5px;
         border-radius: 15px;
     }
