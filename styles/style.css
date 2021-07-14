@@ -118,6 +118,24 @@ body{
     .double-input div input:invalid{
         border-color: red;
     }
+    .email{
+        text-align: center;
+    }
+    .email input{
+        border: 1px solid gray;
+        border-radius: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 20px;
+        width: 50%;
+
+    }
+    .email input:valid{
+        border-color: green;
+    }
+    .email input:invalid{
+        border-color: red;
+    }
 }
 @media screen and (min-width:800px){
     #index{
@@ -212,12 +230,15 @@ body{
     }
     .double-input{
         display: flex;
+        font-size: 20px;
     }
     .double-input div{
         margin-left: 15px;
         margin-right: 15px;
     }
     .double-input div input{
+        padding-left: 15px;
+        padding-right: 15px;
         font-size: 20px;
         margin-left: 15px;
         border-radius: 15px;
@@ -227,6 +248,29 @@ body{
         background: lightgreen;
     }
     .double-input div input:invalid{
+        border-color: red;
+        background: lightcoral;
+    }
+    .email{
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .email label{
+        margin-left: 35px;
+    }
+    .email input{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 20px;
+        margin-left: 15px;
+        border-radius: 15px;
+    }
+    .email input:valid{
+        border-color: green;
+        background: lightgreen;
+    }
+    .email input:invalid{
         border-color: red;
         background: lightcoral;
     }

@@ -40,21 +40,28 @@
                     varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                 </p>
             </div>
-            <div class="double-input">
-                <div>
-                    <label for="first_name">Vorname:</label>
-                    <input id="first_name" type="text" name="firstname" 
-                    placeholder="Vorname" required>
+            <form action="done.html" method="post">
+                <div class="double-input">
+                    <div>
+                        <label for="first_name">Vorname:</label>
+                        <input id="first_name" type="text" name="firstname" 
+                        placeholder="Vorname" maxlength="20" required>
+                    </div>
+                    <div>
+                        <label for="last_name">Nachname:</label>
+                        <input id="last_name" type="text" name="lastname" 
+                        placeholder="Nachname" maxlength="20"required>
+                    </div>
                 </div>
-                <div>
-                    <label for="last_name">Nachname:</label>
-                    <input id="last_name" type="text" name="lastname" 
-                    placeholder="Nachname" required>
+                <div class="email">
+                    <label for="e_mail">E-mail:</label>
+                    <input id="e_mail" type="email" name="email" 
+                    placeholder="muster@example.com" required/>
                 </div>
-            </div>
-            <div class="send-button">
-                <button>Send</button>
-            </div>
+                <div class="send-button">
+                    <button>Send</button>
+                </div>
+            </form>
         <footer id="contact">
             <ul>
                 <li>Kontakt</li>
