@@ -20,6 +20,9 @@ body{
 .send-button button:hover{
     background: orange;
 }
+.send-button button:focus{
+    background: green;
+}
 @media screen and (max-width:799px){
     #index{
         text-align: center;
