@@ -120,6 +120,7 @@ body{
     }
     .email{
         text-align: center;
+        font-size: 20px;
     }
     .email input{
         border: 1px solid gray;
