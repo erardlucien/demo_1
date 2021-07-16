@@ -23,6 +23,9 @@ body{
 .send-button button:focus{
     background: green;
 }
+.gender label{
+    font-size: 20px;
+}
 @media screen and (max-width:799px){
     #index{
         text-align: center;
@@ -136,6 +139,12 @@ body{
     }
     .email input:invalid{
         border-color: red;
+    }
+    .gender{
+        text-align: center;
+    }
+    .gender select{
+        font-size: 20px;
     }
 }
 @media screen and (min-width:800px){
@@ -275,4 +284,12 @@ body{
         border-color: red;
         background: lightcoral;
     }
-}
+    .gender{
+        display: flex;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .gender select{
+        margin-left: 15px;
+    }
+}   
