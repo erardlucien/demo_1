@@ -27,21 +27,8 @@ body{
     font-size: 20px;
 }
 @media screen and (max-width:799px){
-    #index{
+    #title1{
         text-align: center;
-        background-color: red;
-    }
-    #ein{
-        text-align:center;
-        background-color: green;
-    }
-    #zwei{
-        text-align:center;
-        background-color: blue;
-    }
-    #drei{
-        text-align:center;
-        background-color: skyblue;
     }
     #navbar{
         display: block;
@@ -93,7 +80,7 @@ body{
         list-style:none;
         text-align: center;
     }
-    .main .title{
+    .main .subtitle1{
         text-align: center;
     }
     label{
@@ -148,19 +135,7 @@ body{
     }
 }
 @media screen and (min-width:800px){
-    #index{
-        background-color: red;
-    }
-    #ein{
-        background-color:green;
-    }
-    #zwei{
-        background-color: blue;
-    }
-    #drei{
-        background-color:skyblue;
-    }
-    #index, #ein, #zwei, #drei{
+    #title1{
         text-align:left;
         padding-left: 15px;
         font-size: 65px;
@@ -228,7 +203,7 @@ body{
         list-style:none;
         font-size: 15px;
     }
-    .title{
+    .subtitle1{
         margin-left: 15px;
     }
     label{
@@ -255,11 +230,9 @@ body{
     }
     .double-input div input:valid{
         border-color: green;
-        background: lightgreen;
     }
     .double-input div input:invalid{
         border-color: red;
-        background: lightcoral;
     }
     .email{
         margin-top: 15px;
@@ -278,11 +251,9 @@ body{
     }
     .email input:valid{
         border-color: green;
-        background: lightgreen;
     }
     .email input:invalid{
         border-color: red;
-        background: lightcoral;
     }
     .gender{
         display: flex;
