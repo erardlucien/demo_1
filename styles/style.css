@@ -1,8 +1,19 @@
 *{
     padding: 0;
-    margin: 0;
-    font-weight: bolder;
+    margin: 0;  
+}
+#index{
+    font-weight: bold;
     font-family: 'Zen Loop', cursive;
+}
+#first{
+    font-family: 'STIX Two Math', serif;
+}
+#second{
+    font-family: 'Uchen', serif;
+}
+#third{
+    font-family: 'Courier Prime', monospace;
 }
 body{
     background: wheat;
