@@ -16,7 +16,7 @@
     font-family: 'Courier Prime', monospace;
 }
 body{
-    background: wheat;
+    background: lightcyan;
 }
 .send-button{
     text-align: center;
@@ -54,20 +54,20 @@ body{
      font-size: 30px;
     }
     #navbar .service:hover{
-        background: white;
+        background: darkcyan;
     }
     #navbar .service .service-link:hover,
     #navbar .no-containt a:hover{
         padding: 0;
         display: block;
-        background-color: white;
+        background-color: darkcyan;
     }
     #navbar .service .service-containt{
         display:none;
     }
     #navbar .service:hover .service-containt{
         display: block;
-        background-color: lightgray;
+        background-color: lightcyan;
         text-decoration: none;
         font-size: 30px;
         color: black;
@@ -75,7 +75,7 @@ body{
     #navbar .service .service-containt li:hover{
         text-decoration: none;
         font-size: 30px;
-        background-color: gray;
+        background-color: darkcyan;
     }
     .text{
         margin-top: 30px;
@@ -150,7 +150,7 @@ body{
     #title1{
         text-align:left;
         padding-left: 15px;
-        font-size: 65px;
+        font-size: 25px;
     }
     #navbar{
         display: flex;
@@ -158,13 +158,13 @@ body{
         text-align:left;
         background-color:cyan;
         margin-bottom: 15px;
-        font-size: 60px;
+        font-size: 15px;
     }
     #navbar li a{
      text-decoration: none;
      padding: 15px;
      color:black;
-     font-size: 30px;
+     font-size: 25px;
     }
     #navbar .service .service-containt{
         display: none;
@@ -172,28 +172,25 @@ body{
     #navbar .service:hover .service-containt{   
         display: block;
         list-style: none;
-        background: lightgray;
-        font-size: 30px;
+        background: lightcyan;
         position: absolute;
     }
     #navbar .service:hover .service-containt li{
         display: block;
         list-style: none;
-        font-size: 30px;
-        padding: 15px;
         color:black;
         text-decoration: none;
     }
     #navbar .no-containt:first-child{
-        margin-left: 25px;
+        margin-left: 1px;
     }
     #navbar li:hover{
-        background-color: white;
+        background-color: darkcyan;
         padding:0;
     }
     #navbar .service .service-containt li:hover
     {
-        background-color: gray;   
+        background-color: darkcyan;   
     }
     .main{
         display: flex;
